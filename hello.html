@@ -1,29 +1,82 @@
-<!<!DOCTYPE html>
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <title>my first page!</title>
+    <style>
+    h1{
+      color:blue;
+      text-align: center;
+
+    }
+   table{
+    border: 2px solid black;
+    border-collapse:collapse;
+    width: 25%;
+    }
+    th, td{
+      border: 1px solid black;
+      padding:5px;
+      text-align: center;
+    }
+    th{
+      background-color:lightgrey;
+    }
+
+
+    </style>
   </head>
   <body>
-    <h3>Hello, everybody!, hello again</h3>
-    <h1>This a proof of size letters</h1>
-    <h5>Don't be afraid about it</h5>
+    <div class="columns">
+
+
+    <h3 style="color:#590b7a;text-align:center;">Hello, everybody!, hello again</h3>
+    <p style="color:#170a8f">This a proof of size letters</p>
+    <p style="color: red">Don't be afraid about it</p>
+    <h1> usando el style, cada h1 se mostrará así</h1>
 lista sin orden
     <ul>
       <li> un item</li>
       <li>otro</li>
       <li> uno mas</li>
     </ul>
+    </div>
+    <div class="column">
+
+
 lista ordenada
     <ol>
       <li>un item</li>
       <li>otro</li>
       <li>el ultimo</li>
     </ol>
-<img src="addi12.png" height="300" width="350">
+    usar porcentaje para que se adapte a cualquier dispositivo
+<img src="addi12.png" height="300" weight="350" >
+<form>
+  <input type="text" name="datos" placeholder="ingrese su nombre">
+  <button type="button" name="button">Comprar</button>
+</form>
+<h1>Tabla de ingresos</h1>
+<table>
+  <tr>
+    <th>producto</th>
+    <th>fecha de venta</th>
+    <th>precio</th>
+  </tr>
 
+  <tr>
+    <td>i12</td>
+    <td>4/02/2020</td>
+    <td>54000</td>
+  </tr>
+  <tr>
+    <td>i12 black</td>
+    <td>10/03/2020</td>
+    <td>65000</td>
+  </tr>
 
-
+</table>
+</div>
   </body>
 </html>
